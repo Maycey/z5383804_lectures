@@ -1,0 +1,36 @@
+Alt + shift + E -> run code (highlight the code you wanna run)
+
+Python always need to import yfinance first
+None -> bring to todays date
+With or without the red code (ignore_tz), the result should be the same
+We run this code instead of downloading from the yahoo finance website
+
+Variable name in python
+-	They are case sensitive.
+-	For the starting, can only include: Letter or underscore
+
+a1=1
+a1=1+2
+a1=a1+5
+what we are trying to do: variable = expression
+answer is 8
+as python only run top down
+if you change the third line to A1, you get an undefined error.
+a1=1
+a1=1+2
+print(a1)
+a1=A1+5
+print(a1)
+
+if this python will only print 3 and everything after the error print error
+if print(a1==1)
+False
+== basically checks whether the variable and expression are equal
+Python sees this as string
+a2="2"+"3"
+print(a2)
+23
+
+a2="2"+"3"+5  or   a2= 5+ "2"+"3"
+print(a2)
+type ERROR
